@@ -26,6 +26,7 @@
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/698dd29eaec14a469ba31fdc4ede27cd.jpeg#pic_center)
 
  - [ ] 显存估计：
+全量训练所需显存一般来说是同样规模LLM推理的4-5倍。
  
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/2320937adcc44a758d356c02204bd311.jpeg#pic_center)
 
