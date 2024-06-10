@@ -6,13 +6,14 @@
 
  - [ ] 第一阶段：(Continue PreTraining)增量预训练
 	一般垂直大模型是基于通用大模型进行二次的开发。为了给模型注入领域知识，就需要用领域内的语料进行继续的预训练。
- - [ ] 第一阶段：SFT( Supervised Finetuning,有监督微调)
+ - [ ] 第二阶段：SFT( Supervised Finetuning,有监督微调)
  	通过SFT可以激发大模型理解领域内的各种问题并进行回答的能力
- - [ ] 第三阶段：直接偏好优化DPO
- 	1）：RLHF(奖励建模、强化学习训练): 通过RLHF可以让大模型的回答对齐人们的偏好，比如行文的风格。
+ - [ ] 第三阶段：偏好优化
+       
+ 	1）：RLHF(奖励建模、强化学习训练): 通过RLHF可以让大模型的回答对齐人们的偏好。
  	2）：DPO(直接偏好优化) 
  - [ ] 量化
-
+       
  由于大模型的参数量巨大，在解码阶段需要占用大量的显存资源，因而在实际应用中的部署代价非常高。通常使用模型量化（Model Quantization），来减少大模型的显存占用，从而使得能够在资源有限的环境下使用大模型。
  - [ ] 部署
 
@@ -75,7 +76,7 @@ SFT数据配比：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/direct/b65b5e164a0c44b381aa83399e6ea03f.png#pic_center)
 
-4. [GPT-4/ChatGPT模型蒸馏医学数据](https://huggingface.co/spaces/wangrongsheng/DataMaker)
+4.使用 [GPT-4/ChatGPT模型蒸馏医学数据](https://huggingface.co/spaces/wangrongsheng/DataMaker)
 
 ---
 
